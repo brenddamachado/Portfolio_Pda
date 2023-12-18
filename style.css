@@ -64,6 +64,8 @@
   }
   .paragrafo {
     margin-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
   }
   
   .eu {
@@ -81,18 +83,12 @@
       opacity: 1;
     }
   }
-  
-  .h1_skill {
-    font-size: 3.2em;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
+
   
   .container_skills {
     display: flex;
     flex-direction: column;
-  
+  margin-bottom: 4%;
     align-items: center;
   }
   
@@ -161,8 +157,7 @@
   .projetos {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
-    margin-left: 20px;
+    gap: 30px;
   }
   
   .link_projeto {
@@ -183,7 +178,6 @@
   }
   .img_projeto:hover {
     transform: translateY(-20px) scale(1.2);
-    /* A imagem se move para cima e fica 20% maior */
   }
   
   .nome_projeto {
@@ -205,4 +199,10 @@
     flex-direction: column;
   
     align-items: center;
+  }
+  .p_footer{
+    text-align: center;
+  }
+  .div_footer{
+    margin-top: 10%;
   }
