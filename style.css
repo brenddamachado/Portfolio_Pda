@@ -41,8 +41,7 @@ body {
 }
 
 .btn {
-  font-family: Muli, sans-serif;
-  color: #000;
+
   background: linear-gradient(to left, #3a7bd5, #00d2ff);
   letter-spacing: 0.2rem;
   padding: 1.2rem 4rem;
@@ -51,7 +50,6 @@ body {
   font-size: 0.9rem;
   border-radius: 5px;
   cursor: pointer;
-  text-align: left;
   margin-right: 20%;
   animation: animacao 1s 0.7s forwards;
 }
